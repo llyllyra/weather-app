@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Weather-app</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="script.js" type="module"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="script/script.js" type="module"></script>
+    <script src="node_modules/chart.js/dist/chart.min.js" type="module"></script>
 </head>
 <body>
 <form action="">
-    <input type="text" id="weatherSearch" placeholder="Rechercher" />
-    <input type="submit" value="rechercher" id="submit" />
+    <input id="weatherSearch" placeholder="Rechercher" type="text"/>
 </form>
 <section class="weather">
     <div id="result"></div>
     <div class="todayGraph">
-        <section id="0" class="today flex"></section>
-        <section class="flex">
-                <canvas id="myChart" class="myChart"></canvas>
+        <section class="today flex" id="0"></section>
+        <section class="flex" id="chart">
+            <canvas class="myChart" id="myChart"></canvas>
         </section>
     </div>
     <section class="nextDay">
-        <section id="1" class="flex5"></section>
-        <section id="2" class="flex5"></section>
-        <section id="3" class="flex5"></section>
-        <section id="4" class="flex5"></section>
-        <section id="5" class="flex5"></section>
+        <section class="flex5" id="1"></section>
+        <section class="flex5" id="2"></section>
+        <section class="flex5" id="3"></section>
+        <section class="flex5" id="4"></section>
+        <section class="flex5" id="5"></section>
     </section>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<script>
-
-</script>
 
 </body>
 </html>

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98bf083f-fd42-4c09-998a-77f5466541d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetchWeather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weatherDisplay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +28,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +57,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
     "last_opened_file_path": "D:/becode/LIE-Jepsen-6/02-the-hill/04-modern-javascript-anatomy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +74,7 @@
       <recent name="D:\becode\weather-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\becode\modern-javascript-application" />
       <recent name="D:\becode\weather-app\css" />
     </key>
   </component>
@@ -76,6 +93,8 @@
       <workItem from="1655448812119" duration="3027000" />
       <workItem from="1655712382958" duration="104000" />
       <workItem from="1655799138922" duration="52000" />
+      <workItem from="1655809111952" duration="4037000" />
+      <workItem from="1655813187501" duration="4576000" />
     </task>
     <servers />
   </component>
@@ -92,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
