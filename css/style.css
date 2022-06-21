@@ -1,0 +1,43 @@
+body{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+.weather{
+    padding: 50px;
+}
+h2,h3{
+    text-align: center;
+}
+
+ h3 {
+    font-size: 2rem;
+}
+
+.today{
+    text-align: left;
+}
+
+.nextDay, .todayGraph{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.flex{
+    flex: 1 0 50%;
+
+}
+.flex5{
+    flex: 1 0 20%;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#myChart{
+    width: 600px;
+    max-height: 250px;
+}

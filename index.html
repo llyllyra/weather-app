@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Weather-app</title>
-    </head>
-    <body>
-        <form action="">
-            <input type="text" id="weatherSearch" placeholder="Rechercher" />
-            <input type="submit" value="rechercher" id="submit" />
-        </form>
-        <div id="result"></div>
-        <ul id="one"></ul>
-        <ul id="two"></ul>
-        <ul id="three"></ul>
-        <ul id="four"></ul>
-        <ul id="five"></ul>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="">
+    <input type="text" id="weatherSearch" placeholder="Rechercher" />
+    <input type="submit" value="rechercher" id="submit" />
+</form>
+<section class="weather">
+    <div id="result"></div>
+    <div class="todayGraph">
+        <section id="0" class="today flex"></section>
+        <section class="flex">
+                <canvas id="myChart" class="myChart"></canvas>
+        </section>
+    </div>
+    <section class="nextDay">
+        <section id="1" class="flex5"></section>
+        <section id="2" class="flex5"></section>
+        <section id="3" class="flex5"></section>
+        <section id="4" class="flex5"></section>
+        <section id="5" class="flex5"></section>
+    </section>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<script>
 
-        <script src="script.js"></script>
-    </body>
+</script>
+
+</body>
 </html>
